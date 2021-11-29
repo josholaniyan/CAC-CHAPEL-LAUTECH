@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+    color: #362c2c !important;
+    
+}
+ /* .navbar-brand{
+    font-size: 40px !important;
+} */
+.navbar{
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    /* position: fixed !important;
+    top: 0; */
+    z-index: 2;
+}
+.collapse{
+    z-index: 1;
+}
+.navbar a{
+    color: white !important;
+}
+.navbar a:hover{
+    color: #ff0000 !important;
+}
+.navbar-nav .nav-item button{
+    background-color:#ff0000 !important;
+    color: white;
+    border-radius: 100px;
+    border: none;
+}
+/* .animateLogo{
+    font-size: 15px;
+    color: aliceblue;
+    animation: logo 3s ease-in-out infinite;
+} */
+
+.textLEAD{
+    max-height: 100px;
+}
+.textLEAD img{
+    height: 70px;
+    animation: logo 2s ease infinite;
+}
+/* @keyframes logo{
+    from{
+        height: 70px;
+        
+    }
+    to{
+        height: 50px;
+    }
+} */
+
+.carousel-item::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100% !important;
+    background: rgba(216, 215, 231, 0.5) !important;
+    filter: blur(3px);
+}
+
+@media screen and (min-width : 1024px)
+{
+    .carousel-inner{
+    background: rgba(201, 165, 236, 0.5) !important;
+    height: 65vh !important;
+} 
+}
+@media screen and (max-width : 720px){
+    .textLEAD img{
+        height: 50px;
+        /* animation: logo 3s ease infinite; */
+    }
+}
