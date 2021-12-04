@@ -15,10 +15,10 @@
 .navbar{
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
-    width: 100%;
+    /* width: 100%; */
     /* position: fixed !important;
     top: 0; */
-    z-index: 2;
+    /* z-index: 2; */
 }
 .collapse{
     z-index: 1;
@@ -28,6 +28,7 @@
 }
 .navbar a:hover{
     color: #ff0000 !important;
+    font-size: 20px;
 }
 .navbar-nav .nav-item button{
     background-color:#ff0000 !important;
@@ -83,4 +84,65 @@
         height: 50px;
         /* animation: logo 3s ease infinite; */
     }
+}
+
+        /* section of ministers */
+/* body{ */
+    /* background: url("/images/caclogo.png")no-repeat center center ; */
+/* } */
+.second_background{
+    /* background: url("/images/caclogo.png")no-repeat center center ; */
+    /* height: 100vh; */
+    background-color: white !important; 
+    padding: 30px 0;  
+}
+.second_background h1{
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.second_background img{
+    width: 80%;
+}
+.cont{
+    margin-top: 5rem;
+}
+.col_sm_style{
+    text-align: justify;
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.announcement{
+    background-color: #000000;
+    padding: 50px 0px;
+}
+.text-white{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: rem;
+}
+.newsletter{
+    height: 50vh;
+    background-color: #FAFAFA;
+}
+@media screen and (max-width:400px){
+    .col_sm_style{ 
+        width: 270px;
+        font-size: 15px;
+    }
+   
+    .second_background h1{
+        font-size: 15px;
+    }
+
+    .carousel {
+        width: 80%;
+    }
+
 }
