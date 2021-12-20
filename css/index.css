@@ -111,7 +111,6 @@
     
 }
 
-
 .announcement{
     background-color: #000000;
     padding: 50px 0px;
@@ -122,8 +121,18 @@
     padding: rem;
 }
 .newsletter{
-    height: 50vh;
-    background-color: #FAFAFA;
+    /* height: 50vh; */
+  background:  linear-gradient(106.548deg,rgba(0,0,0,0.7)0.51%,rgba(0,0,0,0.8)100%),url(/images/39-393799_world-map-clipart-vector-map-of-the-world.png)no-repeat center center/cover;
+}
+.newsletter h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.newsletter p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 @media screen and (max-width:400px){
     .col_sm_style{ 
@@ -140,3 +149,10 @@
     }
 
 }
+body{
+    height: 100vh;
+}
+/* .secondfooter p{
+    font-size: 20px;
+    padding: 7px
+} */
