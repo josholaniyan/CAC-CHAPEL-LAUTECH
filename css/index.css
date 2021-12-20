@@ -36,11 +36,6 @@
     border-radius: 100px;
     border: none;
 }
-/* .animateLogo{
-    font-size: 15px;
-    color: aliceblue;
-    animation: logo 3s ease-in-out infinite;
-} */
 
 .textLEAD{
     max-height: 100px;
@@ -110,7 +105,6 @@
 }
 .col_sm_style{
     text-align: justify;
-    width: 80%;
     font-size: 20px;
     display: flex;
     align-items: center;
