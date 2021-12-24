@@ -175,7 +175,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .secondfooter{
-    background-color: #F0954A;
+    background-color: #660000;
 }
 .seconddiv{
     color: rgba(255, 136, 0, 0.89);
@@ -204,14 +204,14 @@ body{
 @media screen and (max-width:720px){
     .firstfooter .firstdiv img{
 
-    width: 30%; 
+    width: 20%; 
     }
-    .seconddiv h2{
-       text-align: center;
-    }
+    /* .seconddiv h2{
+       /* text-align: center; */
+    /* }
     .thirddiv h5{
-        text-align: center;
-    }
+        /* text-align: center; */
+    } */ */
 
 }
 .wordfortoday{
@@ -226,3 +226,4 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+

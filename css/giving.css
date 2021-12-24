@@ -1,0 +1,22 @@
+.givingbox .givecont{
+    margin-bottom: 90px;
+}
+.container .giving button{
+    background-color: #ffffff;
+    color: #52ADCA;
+    border: 1px solid #52ADCA;
+}
+.container .giving button:hover{
+    background-color:#52ADCA;
+    color: white;
+    border: 1px solid #52ADCA;
+}
+.giving label{
+    font-weight: bold;
+    }
+.givingbox{
+        box-shadow: 0px 1.5px 1.5px 1.5px #52ADCA;
+    }
+.givecont p{
+    text-align: justify;
+}

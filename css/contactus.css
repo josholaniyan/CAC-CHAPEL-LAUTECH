@@ -1,0 +1,16 @@
+.container .contactus button{
+    background-color: #ffffff;
+    color: #52ADCA;
+    border: 1px solid #52ADCA;
+}
+.container .contactus button:hover{
+    background-color:#52ADCA;
+    color: white;
+    border: 1px solid #52ADCA;
+}
+.contactus label{
+font-weight: bold;
+}
+.contactusbox{
+    box-shadow: 0px 1.5px 1.5px 1.5px #52ADCA;
+}

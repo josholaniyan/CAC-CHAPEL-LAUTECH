@@ -1,0 +1,32 @@
+.container .counselcont{
+    margin-bottom: 80px;
+}
+
+.container .counsel button{
+    background-color: #ffffff;
+    color: #52ADCA;
+    border: 1px solid #52ADCA;
+}
+.container .counsel button:hover{
+    background-color:#52ADCA;
+    color: white;
+    border: 1px solid #52ADCA;
+}
+.counsel label{
+    font-weight: bold;
+    }
+.counsellingbox{
+        box-shadow: 0px 1.5px 1.5px 1.5px #52ADCA;
+    }
+.givecont p{
+    text-align: justify;
+}
+.counselcont h4{
+    font-weight: bold;
+}
+
+@media screen and (max-width : 720px){
+    .counsellingbox .counselcont{
+        margin-bottom: 20px;
+    } 
+}
