@@ -9,16 +9,12 @@
     color: #362c2c !important;
     
 }
- /* .navbar-brand{
-    font-size: 40px !important;
-} */
+ 
 .navbar{
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
      width: 100%;
-     /* position: fixed !important;
-    top: 0; */
-    /* z-index: 2; */
+    
 }
 .collapse{
     z-index: 1;
@@ -209,12 +205,8 @@ body{
 
     width: 20%; 
     }
-    /* .seconddiv h2{
-       /* text-align: center; */
-    /* }
-    .thirddiv h5{
-        /* text-align: center; */
-    } */ */
+    
+    } 
 
 }
 .wordfortoday{

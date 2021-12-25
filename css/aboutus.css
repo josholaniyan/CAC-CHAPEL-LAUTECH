@@ -18,19 +18,19 @@
     font-weight: bold;
     padding: 10rem;
 }
-.aboutus1 hr{
+/* .aboutus1 hr{
     width: 22%;
     size:80%;
     color:white
      
-}
+} */
 @media screen and (max-width : 720px){
     .aboutus{
         height: 400px;
     }
     .aboutus1 h3{
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 5px;
+        /* font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px; */
         font-size: 40px;
     }
     
@@ -58,4 +58,8 @@
     .pastorssection h3{
         font-size: 30px;
     }
+}
+.aboutusnav{
+    position: fixed;
+    top: 0;
 }
