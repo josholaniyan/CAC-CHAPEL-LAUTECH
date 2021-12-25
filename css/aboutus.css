@@ -1,0 +1,49 @@
+.aboutus{
+    background:  linear-gradient(106.548deg,rgb(62,42,106,0.8)0.51%,rgb(250,204,20,0.9)100%),url(/images/worship\ -\ Copy.jpg)no-repeat center center/cover;
+    height: 500px;
+    
+    
+}
+.aboutus1 h6{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+}
+.aboutus1 h3{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold
+}
+.aboutus1{
+    font-weight: bold;
+    padding: 10rem;
+}
+.aboutus1 hr{
+    width: 22%;
+    size:80%;
+    color:white
+     
+}
+@media screen and (max-width : 720px){
+    .aboutus{
+        height: 400px;
+    }
+    .aboutus1 h3{
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px;
+        font-size: 40px;
+    }
+    .aboutus .aboutus2 .row{
+        margin-top: 0;
+    }
+    .aboutus img{
+        width: 100%;
+    }
+    }
+    @media screen and (min-width : 1024px)
+    {
+       .aboutus img{
+        width: 100%;
+    }
+    } 
+    }
