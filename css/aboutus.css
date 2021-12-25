@@ -33,17 +33,29 @@
         letter-spacing: 5px;
         font-size: 40px;
     }
-    .aboutus .aboutus2 .row{
-        margin-top: 0;
-    }
-    .aboutus img{
+    
+     .aboutus img{
         width: 100%;
+    } 
+    
     }
-    }
-    @media screen and (min-width : 1024px)
+     @media screen and (min-width : 1024px)
     {
        .aboutus img{
         width: 100%;
     }
     } 
+.pastorssection{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    background:  linear-gradient(106.548deg,rgb(62,42,106,0.8)0.51%,rgba(62, 42, 106, 0.9)100%),url(/images/world-map-stock-photography-vector-map-png-favpng-5sW4DhMvpvEw2ev3TSH0rLsG0.jpg)no-repeat center center/cover;
+}
+.pastorssection h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media screen and (max-width : 720px){
+    .pastorssection h3{
+        font-size: 30px;
     }
+}
