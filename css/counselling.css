@@ -34,3 +34,6 @@
     position: 0;
     top: 0;
 }
+.counsel .form-control{
+    margin-bottom: 1rem;
+}

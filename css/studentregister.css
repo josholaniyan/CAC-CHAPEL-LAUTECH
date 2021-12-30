@@ -1,14 +1,9 @@
-.header{
-    background:linear-gradient(106.548deg,rgba(0,0,0,0.7)0.51%,rgba(0,0,0,0.8)100%),url(../images/pray.jpg)no-repeat center center/cover;
-
-    height: 500px;
-    
-}
 .header h2{
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+
 .prayfirsttext p{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -24,6 +19,11 @@
  .praytextform label{
     font-weight: bold;
 } 
-.praytextform .form-control{
+.studreg .form-control{
     margin-bottom: 1rem;
+}
+@media screen and (max-width : 720px){
+    .header h2{
+        font-size: 30px;
+    }
 }

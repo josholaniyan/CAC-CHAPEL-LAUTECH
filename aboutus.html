@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -25,9 +22,12 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200;300&family=Poppins:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-     <div class="container-fluid aboutusnav">
+      <div class="container-fluid aboutusnav">
 
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
@@ -53,13 +53,12 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                FEEDBACK
+                                data-bs-toggle="dropdown" aria-expanded="false">FEEDBACK
                             </a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item text-white" href="./praytest.html">PRAYER REQUEST & TESTIMONIES</a></li>
-                                <li><a class="dropdown-item text-white" href="#">COUNSELLING</a></li>
-                                <li><a class="dropdown-item text-white" href="#">SUGGETIONS</a></li>
+                                <li><a class="dropdown-item text-white" href="./counselling.html">COUNSELLING</a></li>
+                                <li><a class="dropdown-item text-white" href="./contactus.html">SUGGETIONS</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -72,20 +71,21 @@
             </div>
         </nav>
     </div>
-     
-
-    <div class="container aboutus">
-        <div class="container aboutus1  text-white ">
+      
+            <!-- ABOUT US SECTION -->
+    <div class="container aboutus ">
+        <div class="container aboutus1  text-white d-flex flex-column justify-content-center align-items-center m-auto">
+            <div class="first">
             <h6>ABOUT</h6>
             <h3>CAC CHAPEL LAUTECH <br> UNDER G OGBOMOSO</h3>
-            
+            </div>
         </div>
     </div>
-
-        <div class="container aboutus2 mt-5">
+                <!-- HISTORY OF CHURCH -->
+        <div class="container  mt-5">
          <div class="row">
              <div class="col-md-4 ">
-                 <img src="./images/baba and mama.jpg" alt="" class="w-50">
+                 <img src="./images/baba and mama.jpg" alt="" class="w-75">
              </div>
              <div class="col-md-8">
                 <h6>BRIEF <br> HISTORY...</h6>
@@ -95,8 +95,24 @@
             </div>
          </div>
         </div>
+
+                    <!-- MEET OUR PASTORS -->
         <div class="container-fluid pastorssection d-flex justify-content-center text-white mt-4">
             <h3>MEET OUR PASTORS</h3>
         </div>
+
+            <!-- Pastor sections -->
+
+        <div class="container row">
+            <div></div>
+            <div></div>
+        </div>
+
+
+
+
+<script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js">
+
+    </script>
 </body>
 </html>

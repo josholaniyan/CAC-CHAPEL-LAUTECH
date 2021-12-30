@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/praytest.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/studentregister.css">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200;300&family=Poppins:wght@200&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200;300&family=Poppins:wght@200&family=Roboto&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mulish:wght@200;300&family=Poppins:wght@200&family=Roboto&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="header d-flex justify-content-center align-items-center text-white m-auto">
+    <div class="container header d-flex justify-content-center mt-4">
 
-        <h2>PRAYERS AND TESTIMONIES</h2>
+        <h2 class="container">MEMBERSHIP REGISTRATION</h2>
     </div>
 
-    <div class="container mt-5 ">
-        <div class="prayfirsttext text-info">
-            <p class="p-md-0 p-4">Send in your Prayer Requests and Testimonies Here</p>
-        </div>
+    <div class="container mt-4 ">
+        <!-- <div class="  prayfirsttext text-info ">
+            <p class=" container p-md-0 p-4 "></p>
+        </div> -->
 
         <div class="row">
             <div class="col-12 col-md-6">
 
-                <form class="praytextform p-md-0 p-4">
+                <form class="studreg p-md-0 p-4">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Full Name*</label>
                         <input type="text" class="form-control " id="exampleFormControlInput1"
                             placeholder="ajao joshua olaniyan">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Department*</label>
+                        <input type="text" class="form-control " id="exampleFormControlInput1"
+                            placeholder="Biochemistry">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Matric Number</label>
+                        <input type="number" class="form-control " id="exampleFormControlInput1"
+                            placeholder="15000">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Phone Number*</label>
@@ -52,21 +63,31 @@
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Prayer Request or Testimony?</label>
+                        <label for="exampleFormControlSelect1">Your present level*</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>-select one-</option>
-                            <option>Prayer Request</option>
-                            <option>Testimony</option>
+                            <option>100</option>
+                            <option>200</option>
+                            <option>300</option>
+                            <option>400</option>
+                            <option>500</option>
+                            <option>Graduate</option>
+                            <option>Post Graduate</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Title*</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title">
+                        <label for="exampleFormControlInput1">Date of Birth*</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="2">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Full details here*</label>
+                        <label for="exampleFormControlInput1">Unit*</label>
+                        <input type="test" class="form-control" id="exampleFormControlInput1" placeholder="Ushering">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Hostel Address*</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                            placeholder="Kindly give more details here"></textarea>
+                            placeholder="Kindly give full hostel address"></textarea>
                     </div>
                     <div>
                         <button class="btn-primary px-3  rounded-3 text-white ">Submit</button>
@@ -77,5 +98,4 @@
 
     </div>
 </body>
-
 </html>

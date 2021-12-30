@@ -21,7 +21,6 @@
 .givecont p{
     text-align: justify;
 }
-.navgive{
-    position: fixed;
-    top: 0;
+.giving .form-control{
+    margin-bottom: 1rem;
 }
