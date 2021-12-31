@@ -161,46 +161,55 @@ body{
     padding: 7px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: #C48551;
+    /* color: #C48551; */
+    
+    
 }
 .firstfooter{
-    
-   background:  linear-gradient(106.548deg,rgba(0,0,0,0.9)0.51%,rgba(0,0,0,0.9)100%),url(/images/world-map-stock-photography-vector-map-png-favpng-5sW4DhMvpvEw2ev3TSH0rLsG0.jpg)no-repeat center center/cover;
+    background-color: #F5F5F5;
+   /* background:  linear-gradient(106.548deg,rgba(0,0,0,0.9)0.51%,rgba(0,0,0,0.9)100%),url(/images/world-map-stock-photography-vector-map-png-favpng-5sW4DhMvpvEw2ev3TSH0rLsG0.jpg)no-repeat center center/cover; */
 
 }
 .firstfooter .logostyle2{
     width: 15%;
 }
 .firstdiv {
-    color: white;
+    /* color: white; */
+    color: #1F1F1F;
     justify-content: justify;
     font-family: 'Montserrat', sans-serif;
 }
 .secondfooter{
-     background-color: #660000; 
+    background-color: #660000;  
+    /* background-color: #f5f5f5; */
     
 }
 .seconddiv{
-    color: rgba(255, 136, 0, 0.89);
-    color: #87E68F;
+    /* color: rgba(255, 136, 0, 0.89);
+    color: #87E68F; */
+    color: #1F1F1F;
     justify-content: justify;
     font-family: 'Montserrat', sans-serif;
 
 }
 .seconddiv h2{
-    color: #87E68F;
+     /* color: #87E68F;  */
+     color: #1F1F1F;
     font-family: 'Poppins', sans-serif;
+    
 }
 .thirddiv h5{
-    color: white;
+    color: #1F1F1F;
+    /* color: white; */
     font-family: 'Montserrat', sans-serif;
 }
 .thirddiv li a{
-    color: white;
+    /* color: white; */
+    color: #1F1F1F;
 }
 .thirddiv li a:hover{
-    background-color:white ;
-    color:#000000;
+    background-color:black ;
+    color:white;
     padding: 5px;
     transition: all 1.2s ease-out; 
 }
