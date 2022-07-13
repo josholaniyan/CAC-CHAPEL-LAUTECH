@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../Assets/caclogo.png";
-import { Navbar, NavbarToggler, Nav, Collapse, NavItem } from "reactstrap";
+import { Navbar, Nav, NavItem } from "reactstrap";
 import { GlobalState } from "../Context";
 import { BsWifi } from "react-icons/bs";
+import { FaTimes } from "react-icons/fa";
 
 const Header = () => {
 	const { headerList } = useContext(GlobalState);
 	let location = useLocation();
-	const [isOpen, setIsOpen] = useState(false);
 
 	useEffect(() => {
 		document.title = `${location.pathname
@@ -16,43 +16,33 @@ const Header = () => {
 			.substring(1)} CAC CHAPEL`;
 	}, [location.pathname]);
 
-	let toggle = () => {
-		setIsOpen(!isOpen);
-	};
-
 	return (
 		<Navbar expand="lg" sticky="top" className="header d-none d-lg-block" light>
-			<header className="container d-flex justify-content-between">
-				<Link to="/">
-					<img src={logo} alt="CAC CHAPEL" className="logo" />
-				</Link>
-				<NavbarToggler onClick={toggle} className="navbar-toggler" />
-			</header>
-			<Collapse isOpen={isOpen} navbar className="w-100">
-				<Nav className="ms-auto d-flex align-items-center" navbar>
-					{headerList.map((list, index) => (
-						<NavItem key={index} className="mx-2 my-lg-auto">
-							<Link
-								to={list.url}
-								onClick={() => (isOpen ? setIsOpen(false) : null)}
-								className={`menuItem text-decoration-none ${
-									location.pathname.length > 1 &&
-									list.url.length > 1 &&
-									location.pathname.includes(list.url)
-										? "fw-bold headerActive"
-										: location.pathname.length === 1 && list.url.length === 1
-										? "fw-bold headerActive"
-										: "text-white"
-								} text-capitalize`}>
-								{list.name}
-							</Link>
-						</NavItem>
-					))}
-					<NavItem className="myCursor text-white btn btn-warning text-uppercase">
-						Join us live
+			<Link to="/">
+				<img src={logo} alt="CAC CHAPEL" className="logo" />
+			</Link>
+			<Nav className="ms-auto d-flex align-items-center" navbar>
+				{headerList.map((list, index) => (
+					<NavItem key={index} className="mx-2 mx-lg-3 my-lg-auto">
+						<Link
+							to={list.url}
+							className={`menuItem text-decoration-none ${
+								location.pathname.length > 1 &&
+								list.url.length > 1 &&
+								location.pathname.includes(list.url)
+									? "fw-bold headerActive"
+									: location.pathname.length === 1 && list.url.length === 1
+									? "fw-bold headerActive"
+									: "text-white"
+							} text-capitalize`}>
+							{list.name}
+						</Link>
 					</NavItem>
-				</Nav>
-			</Collapse>
+				))}
+				<NavItem className="myCursor text-white btn btn-warning text-uppercase">
+					Join us live
+				</NavItem>
+			</Nav>
 		</Navbar>
 	);
 };
@@ -122,14 +112,20 @@ export const Sidebar = () => {
 						<img src={logo} alt="CAC CHAPEL" className="logo" />
 					</Link>
 					<button
-						className="navbar-toggler ms-auto d-lg-none"
+						className="navbar-toggler ms-auto d-lg-none d-flex justify-content-center align-items-center"
 						type="button"
 						onClick={toggle2}
 						data-bs-toggle="collapse"
 						data-bs-target="#header-nav">
-						<span></span>
-						<span></span>
-						<span></span>
+						{isOpen2 ? (
+							<FaTimes color="white" />
+						) : (
+							<>
+								<span></span>
+								<span></span>
+								<span></span>
+							</>
+						)}
 					</button>
 				</div>
 				<ul
