@@ -31,7 +31,7 @@ const Header = () => {
 			<Collapse isOpen={isOpen} navbar className="w-100">
 				<Nav className="ms-auto d-flex align-items-center" navbar>
 					{headerList.map((list, index) => (
-						<NavItem key={index} className="mx-2	 my-2 my-lg-auto">
+						<NavItem key={index} className="mx-2 my-lg-auto">
 							<Link
 								to={list.url}
 								onClick={() => (isOpen ? setIsOpen(false) : null)}
